@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .header-content .btn {
+    background: #ffffff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #about, #services, #portfolio, #contact {
+    background: #f4f4f4;
+    margin: 20px 0;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Contact Form */
+  form input, form textarea, form button {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+  }
+  
+  form button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
